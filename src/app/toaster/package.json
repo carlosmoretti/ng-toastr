@@ -1,0 +1,16 @@
+{
+  "name": "ng-basictoastr",
+  "version": "1.0.1",
+  "description": "a simple toastr for angular 2+ applications",
+  "main": "toastr.component.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "toastr",
+    "angular",
+    "ng"
+  ],
+  "author": "carlos moretti",
+  "license": "ISC"
+}

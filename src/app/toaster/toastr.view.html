@@ -1,0 +1,13 @@
+<!-- <div class="toastr-green" [@inOutAnimation] [ngStyle]="{ 'background' : gradient, 'border-right': borderColor }" *ngIf="visible">
+    <div class="title">{{title}}</div>
+    <hr />
+    <div class="subtitle">{{subtitle}}</div>
+</div> -->
+
+<div class="toastr-absolute">
+    <div class="toastr-green" [@inOutAnimation] [ngStyle]="{ 'background' : getGradient(i), 'border-right': getBorder(i)}" *ngFor="let item of alerts; let i = index">
+        <div class="title">{{item.titulo}}</div>
+        <hr />
+        <div class="subtitle">{{item.desc}}</div>
+    </div>
+</div>
